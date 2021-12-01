@@ -3,9 +3,8 @@ version: 0.2
 env:
   variables:
     CXSERVER: "https://7b9c3c8d.ngrok.io"
-    PROJECTNAME: "CxServer\\WebGoat-Legacy"
-    PRESET: "Checkmarx Default"
-    LOCATIONTYPE: "folder"
+    PROJECTNAME: "hello-world"
+    
   parameter-store:
     CXTOKEN: "CXTOKEN"
 phases:
