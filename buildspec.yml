@@ -4,6 +4,8 @@ env:
   variables:
     CXSERVER: "https://7b9c3c8d.ngrok.io"
     PROJECTNAME: "hello-world"
+    PRESET: "Checkmarx Default"
+    LOCATIONTYPE: "folder"
     
   parameter-store:
     CXTOKEN: "CXTOKEN"
